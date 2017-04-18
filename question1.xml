@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="20dip"
+    android:paddingLeft="10dip"
+    android:paddingRight="10dip" >
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/question1"
+        android:paddingBottom="10dip"/>
+    <RadioGroup 
+        android:id="@+id/q1_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="30dip"
+        android:orientation="vertical"
+        android:paddingBottom="30dip">
+        <RadioButton 
+            android:id="@+id/q1a1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pode ser alterada"
+            android:clickable="true"/>
+        <RadioButton
+            android:id="@+id/q1a2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="variável não pode assumir outro valor"
+            android:clickable="true"/>
+        <RadioButton 
+            android:id="@+id/q1a3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NDA"
+            android:clickable="true"/>
+    </RadioGroup>
+
+</LinearLayout>
